@@ -1,7 +1,9 @@
 import 'package:app/pages/Animation.dart';
 import 'package:app/pages/HomePage.dart';
 import 'package:app/pages/SecondPage.dart';
+import 'package:app/pages/SharedPage.dart';
 import 'package:app/pages/Songs.dart';
+import 'package:app/pages/memos.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,9 +22,7 @@ class MyApp extends StatelessWidget {
        
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SongsPages(
-        
-      )
+      home: MemosPages()
     );
   }
 }
